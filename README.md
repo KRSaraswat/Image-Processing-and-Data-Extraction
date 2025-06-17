@@ -18,14 +18,39 @@ This Python script extracts a white line from a graph image, divides it into ver
 ## Usage
 
 1. Open Threshold Image Generation script and place your graph image file and update the `graph_image_path` variable in the script.
-2. Run the script:
+2. Run the script
 3. Download the image under 'Thresholded Image (Plot lines/text in white):' from output of above script and crop it to remove axes (keeping only graph
 feature lines)
 4. Place this image file and update the `graph_image_path` in extract_and_scale_line.py script.
-5. Run the script:
-
-```bash
-python threshold_Image_generation.py
-python extract_and_scale_line.py
+5. Run the script
 
 # Video Frames Processing (Folder - Process Video Frames with Cropping and Rotation)
+This project provides tools to extract and process frames from video and images for tasks such as graph data extraction, image rotation, cropping, renaming, and visualization.
+
+## 📦 Modules
+
+### 1. `video_processing/extract_frames.py`
+- Extracts frames from a video in a given time range.
+- Zips the extracted frames.
+
+### 2. `image_processing/rotate_images.py`
+- Rotates all images in a ZIP by a specified angle.
+
+### 3. `image_processing/crop_images.py`
+- Crops images in a folder using specified pixel bounds.
+
+### 4. `image_processing/rename_and_zip.py`
+- Renames images sequentially and zips the folder.
+
+### 5. `image_processing/create_image_grids.py`
+- Arranges images into 3x4 grids.
+- Adds image index on each image.
+- Maintains original scaling.
+
+### 6. `plotting/plot_pixels.py`
+- Displays an image with pixel axes.
+
+## 🛠 Requirements
+
+```bash
+pip install -r requirements.txt
