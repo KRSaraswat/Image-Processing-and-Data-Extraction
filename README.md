@@ -25,4 +25,5 @@ feature lines)
 5. Run the script:
 
 ```bash
+python threshold_Image_generation.py
 python extract_and_scale_line.py
