@@ -1,5 +1,5 @@
 # Image-Processing-and-Data-Extraction
-# Graph Line Extraction and Scaling
+# Graph Line Extraction and Scaling (Folder - Extract Coordinates from Graph Image)
 
 This Python script extracts a white line from a graph image, divides it into vertical strips, finds representative points on the line, and scales those points to match the graph's data axes.
 
@@ -17,8 +17,12 @@ This Python script extracts a white line from a graph image, divides it into ver
 
 ## Usage
 
-1. Place your graph image file and update the `graph_image_path` variable in the script.
+1. Open Threshold Image Generation script and place your graph image file and update the `graph_image_path` variable in the script.
 2. Run the script:
+3. Download the image under 'Thresholded Image (Plot lines/text in white):' from output of above script and crop it to remove axes (keeping only graph
+feature lines)
+4. Place this image file and update the `graph_image_path` in extract_and_scale_line.py script.
+5. Run the script:
 
 ```bash
 python extract_and_scale_line.py
