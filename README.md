@@ -27,3 +27,5 @@ feature lines)
 ```bash
 python threshold_Image_generation.py
 python extract_and_scale_line.py
+
+# Video Frames Processing (Folder - Process Video Frames with Cropping and Rotation)
