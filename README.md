@@ -24,7 +24,7 @@ feature lines)
 4. Place this image file and update the `graph_image_path` in extract_and_scale_line.py script.
 5. Run the script
 
-# Video Frames Processing (Folder - Process Video Frames with Cropping and Rotation)
+# Process Video Frames with Cropping and Rotation (Folder - Video Frames Processing)
 This project provides tools to extract and process frames from video and images for tasks such as graph data extraction, image rotation, cropping, renaming, and visualization.
 
 ## 📦 Modules
